@@ -2,7 +2,9 @@
 
 🚀 **Automated Solana memecoin sniping bot with real-time dashboard**
 
-Built with Next.js, TypeScript, and GMGN's Solana Trading API for lightning-fast memecoin trading on Pump.fun.
+Built with GMGN's Collaborative Trading API for lightning-fast memecoin trading on Pump.fun.
+
+<img width="1267" alt="Screenshot 2025-06-18 at 18 32 06" src="https://github.com/user-attachments/assets/8be03c1a-a21d-4f6c-bc3d-16d77c6f72b3" />
 
 ## ✨ Features
 
@@ -13,16 +15,6 @@ Built with Next.js, TypeScript, and GMGN's Solana Trading API for lightning-fast
 - ⚙️ **Risk Management** - Configurable stop-loss and take-profit settings
 - 🔒 **Security First** - Secure wallet integration and API handling
 
-## 🚀 Quick Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/gmgn-trading-bot)
-
-### One-Click Deployment
-
-1. **Click the Deploy button above**
-2. **Connect your GitHub account**
-3. **Set environment variables** (see below)
-4. **Deploy!** 🎉
 
 ## 🔧 Environment Variables
 
@@ -66,22 +58,6 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) to see the dashboard.
 
-## 📱 Dashboard Overview
-
-### Main Features
-- **Bot Status** - Start/stop trading bot with one click
-- **Performance Metrics** - Real-time profit, win rate, and volume tracking
-- **Trade History** - Detailed view of all executed trades
-- **Token Watchlist** - Monitor and add tokens for potential trades
-- **Alert System** - Configurable notifications for trades and events
-- **Settings Panel** - Adjust trading parameters and risk management
-
-### Trading Strategy
-- **Signal Monitoring** - Telegram alerts and Solana log monitoring
-- **Token Eligibility** - Liquidity and dev holdings checks
-- **Automated Execution** - GMGN API integration for fast trades
-- **Risk Management** - Stop-loss and take-profit automation
-
 ## 🔒 Security Best Practices
 
 ### Wallet Security
@@ -89,11 +65,6 @@ Visit [http://localhost:3000](http://localhost:3000) to see the dashboard.
 - Never share your private key
 - Regularly rotate API tokens
 - Monitor wallet activity
-
-### Environment Variables
-- Store sensitive data in Vercel's secure environment variables
-- Never commit `.env.local` to version control
-- Use different keys for development and production
 
 ## 📊 API Endpoints
 
