@@ -20,7 +20,7 @@ Built with GMGN's Collaborative Trading API for lightning-fast memecoin trading 
 
 Set these in your Vercel dashboard under **Settings → Environment Variables**:
 
-\`\`\`env
+```env
 # Required - Wallet Configuration
 WALLET_PRIVATE_KEY=your_base58_private_key_here
 WALLET_ADDRESS=your_public_wallet_address_here
@@ -36,11 +36,11 @@ MAX_DEV_HOLDINGS=5
 DEFAULT_AMOUNT=0.5
 DEFAULT_SLIPPAGE=0.5
 PRIORITY_FEE=0.002
-\`\`\`
+```
 
 ## 🏃‍♂️ Local Development
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone <your-repo-url>
 cd gmgn-trading-bot
@@ -54,7 +54,7 @@ cp .env.example .env.local
 
 # Start development server
 npm run dev
-\`\`\`
+```
 
 Visit [http://localhost:3000](http://localhost:3000) to see the dashboard.
 
@@ -110,6 +110,3 @@ This bot is for educational purposes. Cryptocurrency trading involves significan
 
 MIT License - see LICENSE file for details.
 
----
-
-**Built with ❤️ for the Solana community**
