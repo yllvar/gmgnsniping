@@ -67,7 +67,7 @@ The Trading strategy leverages GMGN’s speed, automation, and security features
 
 ### Workflow Diagram
 
-\`\`\`mermaid
+```mermaid
 graph TD;
     A[Start] --> B[Receive Signal];
     B --> C{Token Eligibility?};
@@ -79,7 +79,7 @@ graph TD;
     H --> I[Set Limit Orders];
     I --> J[End];
     E --> J;
-\`\`\`
+```
 
 ### Token Eligibility Checks
 
@@ -172,7 +172,7 @@ graph TD;
 
 ### Historical ROI Over Time
 
-\`\`\`mermaid
+```mermaid
 gantt
     dateFormat  YYYY-MM-DD
     title Historical ROI Over Time
@@ -189,8 +189,7 @@ gantt
     Trade 9         :after a9, 1d
     Trade 10        :after a10, 1d
     End             :after a11, 1d
-\`\`\`
+```
 
-## Conclusion
 
 The Automated Early Sniping with Solana Trading API strategy offers a structured approach to capitalize on early memecoin pumps. However, success requires rigorous risk management, constant optimization, and acceptance of the speculative nature of memecoins.
