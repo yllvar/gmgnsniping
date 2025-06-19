@@ -2,18 +2,9 @@
 
 ## Quick Start
 
-### Method 1: One-Click Deploy (Recommended)
+### Method 1: Vercel CLI
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/gmgn-trading-bot)
-
-1. Click the deploy button
-2. Connect your GitHub account
-3. Set environment variables
-4. Deploy!
-
-### Method 2: Vercel CLI
-
-\`\`\`bash
+```bash
 # Install Vercel CLI
 npm i -g vercel
 
@@ -22,14 +13,7 @@ vercel login
 
 # Deploy
 vercel --prod
-\`\`\`
-
-### Method 3: GitHub Integration
-
-1. Push code to GitHub
-2. Import project in Vercel dashboard
-3. Configure environment variables
-4. Enable automatic deployments
+```
 
 ## 🔧 Environment Variables Setup
 
@@ -138,31 +122,3 @@ npm run lint        # Fix linting issues
 2. **GitHub Issues**: Report bugs and feature requests
 3. **Community Discord**: Get help from other developers
 
-## 📈 Scaling Considerations
-
-### Traffic Growth
-- Vercel automatically scales serverless functions
-- No server management required
-- Pay only for actual usage
-
-### Database Considerations
-- Consider adding Redis for caching
-- Use Vercel's database integrations
-- Implement proper error handling
-
-## 💰 Cost Optimization
-
-### Hobby Plan (Free)
-- Perfect for development and testing
-- 100GB bandwidth per month
-- Serverless function executions included
-
-### Pro Plan ($20/month)
-- Production applications
-- Custom domains
-- Advanced analytics
-- Priority support
-
----
-
-**🎯 Your GMGN trading bot is now ready for production on Vercel!**
